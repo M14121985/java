@@ -73,9 +73,9 @@ public class Strings {
         //si devuelve un valor positivo significa que la cadena nombre es mayor que la cadena apellido
         //si son iguales devuelve 0
         if(nombre.compareTo(apellido)==0){
-            System.out.println ("SON IGUALES");
+            System.out.println ("SON IGUALES TIENE LAS MISMAS LETRAS Y ORDEN");
             } else{
-            System.out.println("NO SON IGUALES");
+            System.out.println("NO SON IGUALES TIENEN DISTINTAS LETRAS O ORDEN");
         }
     }
 
