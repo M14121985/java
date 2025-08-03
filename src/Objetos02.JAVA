@@ -1,4 +1,4 @@
-public class OBJETOS02{
+public class Objetos02 {
 
 
 public static void main (String[] args){

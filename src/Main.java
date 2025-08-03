@@ -1,11 +1,13 @@
-import java.util.Random;
-import java.util.Scanner;
 import javax.swing.*;
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Código local
-        Random random = new Random();
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+        System.out.printf("Hello and welcome!");
+
         for (int i = 1; i <= 5; i++) {
             //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
@@ -21,15 +23,17 @@ public class Main {
 
 
 
-        // Agrego partes del remoto
-        System.out.printf("Hello and welcome!");
         Scanner scanner = new Scanner(System.in);
         System.out.println("ingrese un numero para calcular el factorial:..");
         int numero = scanner.nextInt();
+
+        // calculo del factorial
+
         long factorial = 1;
         for (int i = numero; i >= 1; i--) {
             factorial *= i;
         }
+
         System.out.println(String.format("el factorial del numero %d es --> %d ", numero, factorial));
         scanner.close();
 

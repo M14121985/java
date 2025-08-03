@@ -2,7 +2,10 @@ import javax.swing.*;
 
 
 public class Calculadora {
-
+    public static void main(String[] args) {
+        Calculadora calculadora = new Calculadora();
+        calculadora.calcular();
+    }
 /**
  * CLASE CALCULADORA
  * * Esta clase permite realizar operaciones basicas de suma, resta, multiplicacion y division
