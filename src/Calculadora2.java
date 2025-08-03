@@ -2,7 +2,12 @@
 
 public class Calculadora2 {
 
-
+    public static void main(String[] args ){
+        System.out.println(Calculadora2.sumar2(45, 65));
+        System.out.println(Calculadora2.restar2(45, 20));
+        System.out.println(Calculadora2.multiplicar2(45, 3));
+        System.out.println(Calculadora2.dividir2(45, 5));
+    }
 
     // operaciones basicas
     public static int sumar2(int a, int b) {
@@ -35,15 +40,6 @@ public class Calculadora2 {
             return a / b;
         }
     }
-
-
-
-
-
-
-
-
-
 
 
 
