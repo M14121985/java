@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-24" project-jdk-type="JavaSDK">
+=======
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/.." />
+    <option name="OPTION_INCLUDE_LIBS" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="corretto-21" project-jdk-type="JavaSDK">
+>>>>>>> 3fcd0de2f7a5255e70f209032d88a445caca9ab4
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
